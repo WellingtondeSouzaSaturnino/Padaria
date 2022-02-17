@@ -1,0 +1,39 @@
+body {
+  background-image: url(../image/pao.jpg);
+  width: 100%;
+  height: 100%;
+  font-family: Arial, Tahoma, sans-serif;
+}
+
+h1 {
+  color: rgb(236, 6, 6);
+  font-size: 55px;
+  text-align: center;
+}
+.lista {
+  font-size: 30px;
+  margin-right: 40px;
+  margin-left: 30px;
+  margin-top: 10px;
+  display: flex;
+  justify-content: space-between;
+  color: black;
+}
+.cor {
+  color: rgb(193, 223, 27);
+}
+.cor1 {
+  color: black;
+}
+
+button {
+  display: flex;
+  justify-content: center;
+  color: yellow;
+  background-color: red;
+  font-size: 30px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  margin-left: 750px;
+  border-radius: 5px;
+}

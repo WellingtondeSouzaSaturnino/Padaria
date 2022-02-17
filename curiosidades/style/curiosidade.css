@@ -1,0 +1,36 @@
+body {
+  
+    background-image: url(../image/fundo\ curiosidade.jpg);
+    width: 100%;
+    height: 100%;
+    font-family: Arial, Tahoma, sans-serif;
+}
+
+body,p{
+    color:yellow;
+    font-size: 25px;
+}
+
+h1{ 
+   color: 	red;
+}
+
+h2 { 
+    color: red;
+    background-color:yellow;
+}
+#botao {
+    
+    display: flex;
+    justify-content:center;
+    margin: 0 auto;
+    width: 400px;
+    background-color: red;
+    padding: 1rem;
+    border-radius: 1em;
+    font-size: 20px;
+  }
+  #botao,b{
+    color:black;
+    font-size: 25px;
+  }

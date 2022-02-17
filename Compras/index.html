@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./Styles/compras.css">
+    <title>Compras</title>
+</head>
+
+<body>
+    <table class="tabela" border="1">
+        <caption>Compras</caption>
+        <thead>
+            <tr>
+                <th>Itens</th>
+                <th>Preços</th>
+                <th>Quantidade</th>
+            </tr>
+        </thead>
+        <tbody method="post" class="tbody">
+            <tr>
+                <th>Pão Frances</th>
+                <th>0,75</th>
+                <th> <input type="number" name="num1" id="v1"></th>
+            </tr>
+            <tr>
+                <th>Pão Doce</th>
+                <th>1,00</th>
+                <th> <input type="number" name="num2" id="v2"></th>
+            </tr>
+            <tr>
+                <th>Leite A</th>
+                <th>4,00</th>
+                <th> <input type="number" name="num3" id="v3"></th>
+            </tr>
+            <tr>
+                <th>Leite B</th>
+                <th>3,50</th>
+                <th> <input type="number" name="num4" id="v4"></th>
+            </tr>
+            <tr>
+                <th>Leite C</th>
+                <th>2,50</th>
+                <th> <input type="number" name="num5" id="v5"></th>
+            </tr>
+            <tr>
+                <th>============</th>
+                <th>============</th>
+                <th> <button type="button" value="submit" onclick=" mostraResultado()" class="btn">Calcular</button>
+
+                    <div id="mostrarResultado"></div><br />
+
+                    <a href="../index.html"><button type="button" class="retorna">Home</button></a>
+                </th>
+            </tr>
+
+        </tbody>
+
+        <script type="text/javascript">
+            function mostraResultado() {
+
+                var num1 = 0.75;
+                var num2 = 1.00;
+                var num3 = 4.00;
+                var num4 = 3.50;
+                var num5 = 2.50;
+                var valor1 = document.getElementById("v1").value;
+                var valor2 = document.getElementById("v2").value;
+                var valor3 = document.getElementById("v3").value;
+                var valor4 = document.getElementById("v4").value;
+                var valor5 = document.getElementById("v5").value;
+                var divMostrar = document.getElementById("mostrarResultado");
+
+                if (valor1 || valor2 || valor3 || valor4 || valor5) {
+                    var resultado = (num1 * Number(valor1)) + (num2 * Number(valor2)) + (num3 * Number(valor3)) + (
+                        num4 * Number(valor4)) + (num5 * Number(valor5));
+                    divMostrar.textContent = "Valor total da compra = " + resultado;
+                    return;
+                }
+
+
+            }
+        </script>
+    </table>
+</body>
+
+</html>
