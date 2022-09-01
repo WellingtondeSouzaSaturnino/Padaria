@@ -60,6 +60,9 @@ button {
   flex-direction: column;
   text-align: center;
  }
+ .container{
+  margin-top:70px;
+ }
   
  
 
