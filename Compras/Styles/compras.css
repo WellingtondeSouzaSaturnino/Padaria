@@ -31,7 +31,7 @@ input {
   height: 5vh;
   font-size:20px;
 }
-@media(min-width:600px){
+@media(min-width:700px){
  
  div.tab{
   display: flex;
