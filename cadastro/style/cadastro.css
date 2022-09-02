@@ -49,3 +49,10 @@ h1 {
 input{
     width:350px
   }
+  @media (min-width:600px) {
+    
+    #botao{
+      width:200px;
+      
+  }
+  }

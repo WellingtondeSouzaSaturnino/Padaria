@@ -52,7 +52,7 @@ footer{
   font-size: 30px;
   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
-@media(max-width:800px) {
+@media(min-width:600px) {
   h1{
     flex-direction: column;
     text-align: center;
