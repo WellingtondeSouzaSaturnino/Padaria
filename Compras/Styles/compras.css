@@ -5,6 +5,7 @@
 body {    
   font-size: 40px;
   background-image: url(../image/fundocompra.jpg);
+  background-repeat: no-repeat;
   width: 100%;
   height: 100%;
   font-family: Arial, Tahoma, sans-serif;
@@ -27,17 +28,18 @@ body {
 input {
   display: flex;
   align-items: center;
-  text-align: center;
-  width: 95%;
+  text-align: center;  
   height: 5vh;
   font-size:20px;
 }
 @media(max-width:800px){
-  table.tabela{
-     
-    margin-top: 100px;
-    margin-left: 5px;
-    margin-right: 5px;
  
+ div.tab{
+  display: flex;
+  width: 100%;
+ }
+  caption{
+   
+   text-align: center;
   }
 }

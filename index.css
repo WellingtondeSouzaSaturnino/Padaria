@@ -43,6 +43,15 @@ button {
 .btn{
   color: yellow;
 }
+li {
+  list-style-type: none;
+}
+footer{
+  text-align: center;
+  margin-top: 300px;
+  font-size: 30px;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
 @media(max-width:800px) {
   h1{
     flex-direction: column;
@@ -62,6 +71,10 @@ button {
  }
  .container{
   margin-top:70px;
+ }
+ footer{
+  margin-top:150px;
+  font-size:20px;
  }
   
  
