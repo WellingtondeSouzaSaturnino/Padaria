@@ -12,7 +12,7 @@
 <style>
     .carousel-item {
     padding: 250px;
-    margin-top: -250px;
+    margin-top: -150px;
 }
 
 body {
@@ -38,7 +38,8 @@ body {
     
     display: flex;
     justify-content:center;
-    margin: 0 auto;
+    margin: auto;
+    margin-bottom: 20px;        
     width: 250px;
     background-color:yellow;
     padding: 1rem;
@@ -54,17 +55,18 @@ h2 {
     color:orangered;
 
 }
+@media(max-width:800){
+   
+}
 </style>
     
 </head>
 
 <body>
-    <div>
+    <div class="top">
     <button type="button" id="botao"><a href="../index.html" ><b>Home</b></a></button>
     </div>
-    <!-- <div class="botao"> <a href="../index.html"><button type="button">
-                <h2>Home</h2>
-            </button></a></div> -->
+   
     <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
         <ol class="carousel-indicators">
             <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
