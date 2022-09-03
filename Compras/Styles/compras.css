@@ -2,7 +2,8 @@
   margin: 0;
   padding: 0;
 }
-body {    
+body { 
+  display:table;   
   font-size: 40px;
   background-image: url(../image/fundocompra.jpg);  
   width: 100%;
