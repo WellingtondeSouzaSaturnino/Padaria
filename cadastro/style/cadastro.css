@@ -37,11 +37,9 @@ textarea:focus {
   border-color: #000;
 }
 .button {
-  padding-left: 90px;
+  text-align: center;
 }
-button {
-  margin-left: 0.5em;
-}
+
 h1 {
   text-align: center;
   color: red;
@@ -50,12 +48,25 @@ input{
     width:350px
   }
   @media (max-width:800px) {
-    
+  
     #botao{
-      width:200px;
-      
+      width:200px;      
+  }
+  div#button{
+    display:flex;
+    text-align: center;
   }
   form {
-    transform: scale(0.9);
+    width: 400px; 
+    margin: auto;
+    transform: scale(0.8);
+
+   
   }
+  h1{
+    text-align: center;
+    margin-top:60px;
+  }
+  
+
   }
