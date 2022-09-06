@@ -25,12 +25,20 @@ table.tabela{
 }
 
 .btn {
-  background-color: rgb(24, 172, 68);
+  background-color: transparent;
   font-size: 25px;
+  border: none;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  color:#8B0000;
+  text-decoration: underline;
 }
 .retorna {
-  background-color:rgb(24, 172, 68);
+  background-color:transparent;
   font-size: 25px;
+  border: none;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  color:#8B0000;
+
 }
 input {
   display: flex;
@@ -55,8 +63,4 @@ input {
    
    text-align: center;
   }
-  .retorna {
-    background-color:rgb(24, 172, 68);
- 
-}
 }
