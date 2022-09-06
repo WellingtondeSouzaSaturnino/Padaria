@@ -3,18 +3,21 @@
   padding: 0;
 }
 body { 
-  display:table;   
+  display:flex;   
   font-size: 40px;
-  background-image: url(../image/fundocompra.jpg);  
-  width: 100%;
-  height: 100%;
-  font-family: Arial, Tahoma, sans-serif;
-}
-.tabela{
- display: flexbox;
- margin: auto;
- margin-top: 70px;
+  background-image: url(../image/fundocompra.jpg);   
+  background-size: cover;
+  background-repeat: no-repeat;
+  font-family: Arial, Tahoma, sans-serif; 
+  justify-content: center;
   
+  
+}
+
+table.tabela{ 
+ 
+  margin-top: 70px; 
+
 }
 
 .btn {
@@ -34,10 +37,9 @@ input {
 }
 @media(max-width:800px){
  
- div.tab{
+ div#tab{
   display: flex;
-  flex-direction: column;
-  width: 100%;
+  flex-direction: column; 
   margin-top: 100px;
 
  }
