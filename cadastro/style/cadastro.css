@@ -55,4 +55,7 @@ input{
       width:200px;
       
   }
+  form {
+    transform: scale(0.9);
+  }
   }
