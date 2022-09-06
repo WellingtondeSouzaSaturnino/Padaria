@@ -27,11 +27,8 @@ h1 {
   color: rgb(193, 223, 27);
 }
 .cor1 {
-  color: black;
-}
-.cor2{
-  color: black;
-  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  color:black;
 }
 
 button {  
