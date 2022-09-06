@@ -52,6 +52,7 @@ footer{
   margin-top: 300px;
   font-size: 30px;
   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  color:black;
 }
 @media(max-width:800px) {
   h1{
