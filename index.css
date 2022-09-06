@@ -29,20 +29,24 @@ h1 {
 .cor1 {
   color: black;
 }
+.cor2{
+  color: black;
+  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
 
 button {  
-  background-color: red;
+  background-color:transparent;
   font-size: 30px;
   margin-top: 10px;
   margin-bottom: 10px; 
-  border-radius: 5px;
+  border:none;
+  
 }
 .container{
   text-align: center;
+  
 }
-.btn{
-  color: yellow;
-}
+
 footer{
   text-align: center;
   margin-top: 300px;
