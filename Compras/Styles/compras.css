@@ -58,4 +58,7 @@ input {
     font-size: 25px;
     text-align: center;
   }
+  body{
+    width:720px;
+  }
 }
