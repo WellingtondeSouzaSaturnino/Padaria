@@ -10,10 +10,8 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
         integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
 <style>
-    .carousel-item {          
-    
-    
-    
+    .carousel-item {  
+        text-align: center;   
     
   
 }
@@ -55,10 +53,15 @@ body {
     font-size: 20px;
   }
   @media only screen and (max-width:800px){ 
+
+    #carouselExampleIndicators {
+    position: relative;
+
+}  
  
  .carousel-inner > .carousel-item > img {
   transform:scale(0.8);
-  transform: translate(20%, -10%) !important;  
+  transform: translate(-0%, -10%) !important;  
   
  } 
  .carousel-control-prev {
