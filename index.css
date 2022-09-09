@@ -72,9 +72,11 @@ footer{
  .container{
   margin-top:20px;
  }
+
  footer{
   margin-top:40px;
   font-size:20px;
+  margin-bottom: 100px;
  }
   
  
