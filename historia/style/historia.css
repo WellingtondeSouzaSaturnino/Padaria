@@ -1,8 +1,11 @@
 body {
-  
-    background-image: url(../image/fundohistoria.jpg);
+    display: table;
     width: 100%;
     height: 100%;
+    padding: 100px 0;
+    background-image: url(../image/fundohistoria.jpg);
+    background-repeat: no-repeat;
+    background-size:cover;
     font-family: Arial, Tahoma, sans-serif;
     margin: 10px;
    
